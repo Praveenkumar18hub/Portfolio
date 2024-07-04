@@ -11,13 +11,13 @@ const ServiceCard = ({ index, title, icon }) => (
   <Tilt className='xs:w-[250px] w-full'>
     <motion.div
       variants={fadeIn("right", "spring", index * 0.5, 0.75)}
-      className='w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card'
+      className='w-full p-[1px] rounded-[20px] shadow-card '
     >
       <div
         options={{
           max: 45,
           scale: 1,
-          speed: 450,
+          speed: 100,
         }}
         className='bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col'
       >
@@ -50,7 +50,7 @@ const About = () => {
         Hi, I'm  a software student with a keen interest in web development, software testing, and database management. I am a quick learner, adept at problem-solving, and eager to collaborate on creating efficient, scalable, and user-friendly technical solutions. Let's innovate together!
       </motion.p>
 
-      <div className='mt-20 flex flex-wrap gap-10 '>
+      <div className='mt-20 flex flex-wrap gap-10 justify-center '>
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}

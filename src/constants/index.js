@@ -3,23 +3,10 @@ import {
     test,
     dbms,
     web,
-    javascript,
-    python,
-    html,
-    css,
-    reactjs,
-    sql,
-    express,
-    nodejs,
-    mongodb,
-    git,
-    postman,
     Satyukt,
     health,
     property,
     doctor,
-    selenium,
-    appium,
     Rotaract,
   } from "../assets";
   
@@ -60,62 +47,6 @@ import {
       title: "Quality Analyst",
       icon: test,
     },
-  ];
-  
-  const technologies = [
-    {
-      name: "Python",
-      icon: python,
-    },
-    {
-      name: "HTML 5",
-      icon: html,
-    },
-    {
-      name: "CSS 3",
-      icon: css,
-    },
-    {
-      name: "JavaScript",
-      icon: javascript,
-    },
-    {
-      name: "React JS",
-      icon: reactjs,
-    },
-    {
-      name: "Node JS",
-      icon: nodejs,
-    },
-    {
-      name: "Express JS",
-      icon: express,
-    },
-    {
-      name: "Mongo DB",
-      icon: mongodb,
-    },
-    {
-      name: "SQL",
-      icon: sql,
-    },
-    {
-      name: "Selenium", 
-      icon: selenium,
-    },
-    {
-      name: "Appium",
-      icon: appium,
-    },
-    {
-      name: "Git",
-      icon: git,
-    },
-    {
-      name: "Postman",
-      icon: postman,
-    },
-  
   ];
   
   const experiences = [
@@ -219,4 +150,4 @@ import {
     },
   ];
   
-  export { services, technologies, experiences, projects };
+  export { services, experiences, projects };
